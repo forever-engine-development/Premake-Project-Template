@@ -1,2 +1,7 @@
-Build
-Dependencies
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs/
+Build/
+Dependencies/
