@@ -1,19 +1,7 @@
-workspace "TemplateProject"
-	configurations {
-		"Debug",
-		"Release"
-	}
-	platforms {
-		"Win32",
-		"Win64"
-	}
-
-include "configurations.lua"
-
-project "TemplateProject"
+project "TemplateProject" --- Change name
 	language "C++"
     cppdialect "C++17"
-    kind "ConsoleApp"
+    kind "StaticLib"
 
     location "Source/"
 	targetdir "Build/bin/%{outputdir}/%{prj.name}"
